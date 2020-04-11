@@ -1,0 +1,10 @@
+INTERMIDIATE HTML CAT 2
+NAME : IAN NJOROGE
+REG NO : COM/36/18
+
+
+HOW TO RUN 
+Run Apache web server(XAMPP)
+create a database called musingu
+Import 'musingu.sql' in PHPMyAdmin
+Run in your browser using a local host e.g. 'localhost/path/index.php'
