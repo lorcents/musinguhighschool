@@ -13,12 +13,12 @@ $copy= filter_input(INPUT_POST,'copy');
 $human= filter_input(INPUT_POST,'human');
 
 
-$host = 'localhost';
-$dbusername = 'root';
-$dbpassword = 'software';
-$dbname = 'musingu';
+$host = 'ec2-18-215-99-63.compute-1.amazonaws.com';
+$dbusername = 'pgobukqarubhft';
+$dbpassword = '4c4cc0fd60691e279ce0ddf0f58a8a7fefd8316f6fde3f91188cb452376368a4';
+$dbname = 'd8jfmtcp87rvpo';
 //connection
-$con=mysqli_connect("localhost", "root", "software", "musingu");
+$con=mysqli_connect("ec2-18-215-99-63.compute-1.amazonaws.com", "pgobukqarubhft", "4c4cc0fd60691e279ce0ddf0f58a8a7fefd8316f6fde3f91188cb452376368a4", "d8jfmtcp87rvpo");
 if(mysqli_connect_errno()){
  echo "Connection Fail".mysqli_connect_error();
  }
