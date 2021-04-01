@@ -1,11 +1,4 @@
-<style>
-  h1,h2,h3{
-    color :blue;
-  }
-  iframe{
-    
-  }
-  </style>
+
 # MUSINGU HIGH WEBSITE
 <P>This is a website for my former highschool.</p>
 <p>
